@@ -9,6 +9,15 @@ public class MealTime {
             System.out.println("What did you eat for breakfast?");
             String yourBreakfast = bufferedReader.readLine();
             System.out.println("You had " + yourBreakfast + " for breakfast.");
+
+            System.out.println("What did you eat for lunch?");
+            String yourLunch = bufferedReader.readLine();
+            System.out.println("You had " + yourLunch + " for lunch.");
+
+            System.out.println("What did you eat for Dinner?");
+            String yourDinner = bufferedReader.readLine();
+            System.out.println("You had " + yourDinner + " for Dinner.");
+
         }catch(IOException e){
             e.printStackTrace();
         }
